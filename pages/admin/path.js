@@ -100,17 +100,17 @@ export default function PathAdmin() {
                   </Select>
                 </FormControl>
               </Box>
-              <FormControl sx={{ my: 1 }} fullWidth>
-                <TextField
-                  type="number"
-                  name="age"
-                  label="나이"
-                  variant="outlined"
-                  defaultValue={age}
-                  onChange={(e) => setAge(e.target.value)}
-                  required
-                />
-              </FormControl>
+              {/*<FormControl sx={{ my: 1 }} fullWidth>*/}
+              {/*  <TextField*/}
+              {/*    type="number"*/}
+              {/*    name="age"*/}
+              {/*    label="나이"*/}
+              {/*    variant="outlined"*/}
+              {/*    defaultValue={age}*/}
+              {/*    onChange={(e) => setAge(e.target.value)}*/}
+              {/*    required*/}
+              {/*  />*/}
+              {/*</FormControl>*/}
               <Button
                 type="submit"
                 variant="contained"

@@ -18,7 +18,7 @@ export default function PathResult({ pathResult }) {
         </Typography>
         <ListItem sx={{ px: 1 }}>
           <ListItemText>거리: {pathResult.distance}km</ListItemText>
-          <ListItemText>요금: {pathResult.fare}원</ListItemText>
+          {/*<ListItemText>요금: {pathResult.fare}원</ListItemText>*/}
         </ListItem>
       </List>
       <Divider />

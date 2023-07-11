@@ -157,15 +157,15 @@ export default function LineCreateDialogButton({
                   required
                 />
               </FormControl>
-              <FormControl sx={{ my: 1 }} fullWidth>
-                <TextField
-                  type="number"
-                  name="extraFare"
-                  label="추가 요금"
-                  variant="outlined"
-                  onChange={(e) => setExtraFare(e.target.value)}
-                />
-              </FormControl>
+              {/*<FormControl sx={{ my: 1 }} fullWidth>*/}
+              {/*  <TextField*/}
+              {/*    type="number"*/}
+              {/*    name="extraFare"*/}
+              {/*    label="추가 요금"*/}
+              {/*    variant="outlined"*/}
+              {/*    onChange={(e) => setExtraFare(e.target.value)}*/}
+              {/*  />*/}
+              {/*</FormControl>*/}
               <FormControl sx={{ my: 1 }} fullWidth>
                 <Box sx={{ width: "100%" }}>
                   <TextField
